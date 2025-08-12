@@ -1,11 +1,20 @@
 // postcss.config.mjs
+import fluid, { extract } from 'fluid-tailwind'
+
 const config = {
   plugins: {
     "@tailwindcss/postcss": {
-      // Add the content array here
-      content: [
-        "./src/**/*.{js,ts,jsx,tsx,mdx}", // Existing path
-        "./src/slices/**/*.{js,ts,jsx,tsx,mdx}", // The new path you need to add
+      // Use the content object with files and extract
+      content: {
+        files: [
+          "./src/**/*.{js,ts,jsx,tsx,mdx}",
+          "./src/slices/**/*.{js,ts,jsx,tsx,mdx}",
+        ],
+        extract,
+      },
+      // Add the fluid plugin to your plugins array
+      plugins: [
+        fluid,
       ],
     },
     "autoprefixer": {},
