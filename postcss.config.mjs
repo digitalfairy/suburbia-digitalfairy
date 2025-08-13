@@ -1,23 +1,7 @@
-// postcss.config.mjs
-import fluid, { extract } from 'fluid-tailwind'
-
+/** @type {import('postcss-load-config').Config} */
 const config = {
   plugins: {
-    "@tailwindcss/postcss": {
-      // Use the content object with files and extract
-      content: {
-        files: [
-          "./src/**/*.{js,ts,jsx,tsx,mdx}",
-          "./src/slices/**/*.{js,ts,jsx,tsx,mdx}",
-        ],
-        extract,
-      },
-      // Add the fluid plugin to your plugins array
-      plugins: [
-        fluid,
-      ],
-    },
-    "autoprefixer": {},
+    tailwindcss: {},
   },
 };
 
