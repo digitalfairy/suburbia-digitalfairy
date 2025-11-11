@@ -1,39 +1,58 @@
-# 3D-Skateboard-Website
-A 3D skateboard customizer app and landing page with Next.js 15, GSAP, Prismic, Three.js, Tailwind, and TypeScript!
+# 🛹 Suburbia Skateboards - Customizer App
 
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+## Project Overview
 
-## Getting Started
+This project features a **stunning landing page** and an **interactive customizer app** for a fictional skateboard brand, **Suburbia Skateboards**.
 
-First, run the development server:
+The landing page provides an immersive brand experience, while the customizer allows users to modify skateboard components in **real-time 3D**.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### Key Features:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+* **Interactive 3D Customizer:** Built with **React Three Fiber** and **Three.js**.
+* **Physics Simulations:** Utilizing **Matter.js** for realistic interactions.
+* **Dynamic Content:** Managed via **Prismic** Headless CMS.
+* **Elegant Animations:** Powered by **GSAP**.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+This project is perfect for showcasing skills in both front-end development and performance-optimized 3D web applications.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 🛠️ Tech Stack
 
-To learn more about Next.js, take a look at the following resources:
+This project is built using the following core technologies, as confirmed in `package.json`:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+* **Framework**: Next.js 15
+* **3D Graphics**: **Three.js**, **@react-three/fiber**, and **@react-three/drei**
+* **Physics**: **Matter.js** (for 2D physics simulations)
+* **Animation**: **GSAP** (GreenSock Animation Platform)
+* **CMS**: **Prismic** (Headless Page Builder)
+* **Styling**: Tailwind CSS
+* **Environment**: TypeScript
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 🚀 Getting Started
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+To get the project running locally, follow these steps:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1.  **Clone the repository:**
+    ```bash
+    git clone [YOUR-REPO-URL-HERE]
+    ```
+2.  **Install dependencies:**
+    ```bash
+    npm install
+    ```
+3.  **Configure Prismic:** Set up your Prismic repository and configure your environment variables (`.env` file) to link the project.
+4.  **Run the development server:**
+    ```bash
+    npm run dev
+    ```
+
+---
+
+## 📧 Contact
+
+**Email**: jelicanita7@gmail.com
+
+---
