@@ -73,7 +73,11 @@ export default async function Page(props: {
             metals={metals}
             className="mb-6"
           />
-          <ButtonLink href="" color="lime" icon="plus">
+          <ButtonLink 
+            field={{ link_type: "Web", url: "#" }}
+            color="lime" 
+            icon="plus"
+          >
             Add to cart
           </ButtonLink>
         </div>
