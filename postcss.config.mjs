@@ -1,10 +1,9 @@
-import postcssNesting from 'postcss-nesting'; 
-
 /** @type {import('postcss-load-config').Config} */
 const config = {
   plugins: {
-    'postcss-nesting': postcssNesting, 
-    'tailwindcss': {},
+    'postcss-nesting': {}, 
+    'tailwindcss': {},     
+    'autoprefixer': {},    
   },
 };
 
