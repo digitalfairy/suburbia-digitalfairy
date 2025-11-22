@@ -1,12 +1,12 @@
 import clsx from "clsx";
-import React from "react"; 
+import React from "react";
 
 export type BoundedProps<T extends React.ElementType> = React.ComponentPropsWithoutRef<T> & {
   className?: string;
 };
 
-export const Bounded = <T extends React.ElementType = "section">({
-  as: Comp = "section" as T, 
+export const Bounded = <T extends React.ElementType = "nav">({
+  as: Comp = "nav" as T, 
   className,
   children,
   ...restProps
