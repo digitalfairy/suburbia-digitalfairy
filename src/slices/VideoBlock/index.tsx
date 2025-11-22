@@ -23,10 +23,10 @@ const VideoBlock = ({ slice }: VideoBlockProps) => {
     <Bounded
       data-slice-type={slice.slice_type}
       data-slice-variation={slice.variation}
-      className="bg-texture bg-zinc-900"
+      className="bg-texture bg-zinc-900 py-20"
     >
       <h2 className="sr-only">Video Reel</h2>
-      <div className="relative aspect-video">
+      <div className="relative aspect-video w-full">
         {/* Masks */}
         <div
           className={clsx(

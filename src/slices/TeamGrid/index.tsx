@@ -23,7 +23,7 @@ const TeamGrid = async ({ slice }: TeamGridProps) => {
     <Bounded
       data-slice-type={slice.slice_type}
       data-slice-variation={slice.variation}
-      className="bg-texture bg-brand-navy"
+      className="bg-texture bg-brand-navy py-20"
     >
       <SlideIn>
         <Heading as="h2" size="lg" className="mb-8 text-center text-white">

@@ -32,7 +32,7 @@ export async function Footer() {
         <Logo className="pointer-events-none relative h-20 mix-blend-exclusion md:h-28" />
       </div>
       <Bounded>
-        <ul className="flex flex-wrap justify-center gap-8 ~text-lg/xl">
+        <ul className="flex flex-wrap justify-center gap-8 ~text-lg/xl p-10">
           {settings.data.navigation.map((item) => (
             <li key={item.link.text} className="hover:underline">
               <PrismicNextLink field={item.link} />

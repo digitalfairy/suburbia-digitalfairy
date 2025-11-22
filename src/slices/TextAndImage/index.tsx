@@ -34,7 +34,7 @@ const TextAndImage = ({ slice, index }: TextAndImageProps) => {
       data-slice-type={slice.slice_type}
       data-slice-variation={slice.variation}
       className={clsx(
-        "sticky top-[calc(var(--index)*2rem)]",
+        "sticky top-[calc(var(--index)*2rem)] py-20",
         theme === "Blue" && "bg-texture bg-brand-blue text-white",
         theme === "Orange" && "bg-texture bg-brand-orange text-white",
         theme === "Navy" && "bg-texture bg-brand-navy text-white",
