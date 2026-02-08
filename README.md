@@ -1,58 +1,48 @@
-# 🛹 Suburbia Skateboards - Customizer App
+# 🛹 Suburbia Skateboards - 3D Customizer & Landing Page
 
-## Project Overview
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
+![Three.js](https://img.shields.io/badge/Three.js-black?style=for-the-badge&logo=three.js&logoColor=white)
+![GSAP](https://img.shields.io/badge/GSAP-88CE02?style=for-the-badge&logo=greensock&logoColor=white)
+![Prismic](https://img.shields.io/badge/Prismic-5856D6?style=for-the-badge&logo=prismic&logoColor=white)
 
-This project features a **stunning landing page** and an **interactive customizer app** for a fictional skateboard brand, **Suburbia Skateboards**.
+> **Live Demo:** [custom.anitacreativestudio.com](https://custom.anitacreativestudio.com/)
 
-The landing page provides an immersive brand experience, while the customizer allows users to modify skateboard components in **real-time 3D**.
+An immersive brand experience and interactive 3D customizer for **Suburbia Skateboards**. This application allows users to modify skateboard components in real-time within a high-performance 3D environment, paired with a cinematic landing page.
 
-### Key Features:
+---
 
-* **Interactive 3D Customizer:** Built with **React Three Fiber** and **Three.js**.
-* **Physics Simulations:** Utilizing **Matter.js** for realistic interactions.
-* **Dynamic Content:** Managed via **Prismic** Headless CMS.
-* **Elegant Animations:** Powered by **GSAP**.
+## ✨ Key Technical Features
 
-This project is perfect for showcasing skills in both front-end development and performance-optimized 3D web applications.
+* **Interactive 3D Customizer:** A deep integration of **React Three Fiber** and **Three.js** allowing users to personalize decks, wheels, and trucks with real-time material updates.
+* **Physics-Driven UI:** Utilizing **Matter.js** to create realistic 2D physics interactions within the landing page elements for a playful, tactile brand feel.
+* **Headless Content Architecture:** Powered by **Prismic CMS** and **Slice Machine**, enabling modular page construction and easy content management without code changes.
+* **Cinematic Motion:** Advanced **GSAP** timelines for seamless transitions between the 2D content and the 3D customizer state.
 
 ---
 
 ## 🛠️ Tech Stack
 
-This project is built using the following core technologies, as confirmed in `package.json`:
-
-* **Framework**: Next.js 15
-* **3D Graphics**: **Three.js**, **@react-three/fiber**, and **@react-three/drei**
-* **Physics**: **Matter.js** (for 2D physics simulations)
-* **Animation**: **GSAP** (GreenSock Animation Platform)
-* **CMS**: **Prismic** (Headless Page Builder)
-* **Styling**: Tailwind CSS
-* **Environment**: TypeScript
+* **Core Framework:** [Next.js 15](https://nextjs.org/) (App Router)
+* **3D Graphics:** **@react-three/fiber** & **@react-three/drei**
+* **Physics Engine:** **Matter.js**
+* **Content Management:** **Prismic** (Headless CMS)
+* **Animations:** **GSAP** (GreenSock)
+* **Type Safety:** **TypeScript**
+* **Styling:** **Tailwind CSS**
 
 ---
 
-## 🚀 Getting Started
+## 🚀 Quick Setup (For Reviewers)
 
-To get the project running locally, follow these steps:
+To review the project code and run it locally:
 
-1.  **Clone the repository:**
-    ```bash
-    git clone [YOUR-REPO-URL-HERE]
-    ```
-2.  **Install dependencies:**
-    ```bash
-    npm install
-    ```
-3.  **Configure Prismic:** Set up your Prismic repository and configure your environment variables (`.env` file) to link the project.
-4.  **Run the development server:**
-    ```bash
-    npm run dev
-    ```
+1. **Clone:** `git clone https://github.com/digitalfairy/suburbia-digitalfairy.git`
+2. **Install:** `npm install`
+3. **Run Dev Server:** `npm run dev`
+4. **Visit:** `http://localhost:3000`
 
 ---
 
-## 📧 Contact
-
-**Email**: jelicanita7@gmail.com
-
----
+## 📧 Connect
+**Portfolio:** [anitacreativestudio.com](https://anitacreativestudio.com/)  
+**Email:** jelicanita7@gmail.com
